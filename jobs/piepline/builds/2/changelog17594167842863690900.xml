@@ -1,0 +1,9 @@
+commit bdf27e8566d72c54475ea1f84d63c45da2c100b2
+tree 677c9319e829f29349e29d90c4f0a6c9a7d1644b
+parent 4f1de0296bf8850d86df95fbc3baed295ff1d5ee
+author OBovtunov <83859228+OBovtunov@users.noreply.github.com> 2021-07-25 09:58:26 +0300
+committer GitHub <noreply@github.com> 2021-07-25 09:58:26 +0300
+
+    Update Jenkinsfile
+
+:100644 100644 58245fad81175f5740f3bb52b4840aedf9cfe32d d8fcded9a53f947dc819d98b6e0e1d7e1c5796b2 M	Jenkinsfile

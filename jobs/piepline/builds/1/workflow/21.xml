@@ -1,0 +1,34 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.93">
+    <parentIds>
+      <string>20</string>
+    </parentIds>
+    <id>21</id>
+    <descriptorId>org.jenkinsci.plugins.docker.workflow.WithContainerStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.93">
+      <arguments>
+        <entry>
+          <string>args</string>
+          <string></string>
+        </entry>
+        <entry>
+          <string>image</string>
+          <string>79620d5e969a475577f2727273f89d1a850cfb5c</string>
+        </entry>
+        <entry>
+          <string>toolName</string>
+          <null/>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.46">
+      <startTime>1627195975435</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

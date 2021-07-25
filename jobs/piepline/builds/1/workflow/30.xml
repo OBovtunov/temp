@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2.93">
+    <parentIds>
+      <string>29</string>
+    </parentIds>
+    <id>30</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.93">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string> export GOPATH=$WORKSPACE
+               export PATH=&quot;$PATH:$(go env GOPATH)/bin&quot;
+	       go get github.com/tools/godep
+               go get github.com/smartystreets/goconvey
+               go get github.com/GeertJohan/go.rice/rice
+               go get github.com/OBovtunov/word-cloud-generator/wordyapi
+               go get github.com/gorilla/mux
+	       sed -i &apos;s/1.DEVELOPMENT/1.$BUILD_NUMBER/g&apos; ./rice-box.go
+               GOOS=linux GOARCH=amd64 go build -o ./artifacts/word-cloud-generator -v .
+	       gzip -c ./artifacts/word-cloud-generator &gt;./artifacts/word-cloud-generator.gz
+               rm ./artifacts/word-cloud-generator
+               mv ./artifacts/word-cloud-generator.gz ./artifacts/word-cloud-generator</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.46">
+      <startTime>1627196048395</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

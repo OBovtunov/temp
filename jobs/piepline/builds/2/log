@@ -1,0 +1,220 @@
+Started by user [8mha:////4J2wXgSLLHeiWuZAZV2N0nX++oPD2G56vUX3wW61V2AaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile from git https://github.com/OBovtunov/word-cloud-generator.git
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4H5eomFld1fVuCjqD/7Lr8uxy49+8gn/8IAGylXz2xaBAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4I8j+PgpXBxhpib1Fvq5lWAgXYuyNTPZB4bcAeGHjBMsAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IGmtyiYA6nZ8f5kys8B4+FEnDLWXcEu/4zLF/c9SZpGAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/piepline
+[8mha:////4MPCwZfyuQcDdNF2tkZJQEmonE417SVjcGm9E3xQ+1r2AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4BzmL2toxRannCJkETZptrq/7zGMthwMOGo43eLd7hnjAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4POtXpjuHbr+XTAtmzaQngrDIb3TMogAYsorcEsvCdhxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4KlF95NxZxis0GIEQk66uOW/ooSUtznbtNIPxv9rIeE/AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/piepline/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/OBovtunov/word-cloud-generator.git # timeout=10
+Fetching upstream changes from https://github.com/OBovtunov/word-cloud-generator.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+ > git fetch --tags --force --progress -- https://github.com/OBovtunov/word-cloud-generator.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision bdf27e8566d72c54475ea1f84d63c45da2c100b2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bdf27e8566d72c54475ea1f84d63c45da2c100b2 # timeout=10
+Commit message: "Update Jenkinsfile"
+ > git rev-list --no-walk 4f1de0296bf8850d86df95fbc3baed295ff1d5ee # timeout=10
+[8mha:////4Op7vk05L1zSFwLloYv+wUCvTpHR9ygzgSG89j8XSxpZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4FFbeK93/BeFuAMwtUdqQLzih6SdDMq42qgo9LDHlFQtAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4O3JXeuaI021VLRi/djMt767xO72CQPeyJiURZOhOYHCAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4C6ixeDu6VirUsc3Y/XtRoMuLIpgW0gBSyZYQgRhAFSIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4Pz/ZN5MCa1x/BBUynFGoPK2AE/PuW2klyhjOEDq3W+GAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4HZX7+w0wY8hZT6ddW9qiHlzT1QxQGBaoGvVmWvm5VjGAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Agent Setup)
+[8mha:////4IYfnARRiLTZty7maVHX+8Wfipq5VjHcROjG7IcStNQkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] isUnix
+[8mha:////4Ht60EsZjdjJSLpxCJ+kAm68mkNIcz8E8qUsjLWvzIohAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] readFile
+[8mha:////4DxZaH/8tZRS3vmH6wfFOxlS/ZVnqYQ0u7rJrEdo8o7zAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGI1pjGvgAAAA==[0m[Pipeline] sh
++ docker build -t 79620d5e969a475577f2727273f89d1a850cfb5c -f Dockerfile .
+Sending build context to Docker daemon  128.4MB
+Step 1/2 : FROM golang:1.13.15
+ ---> d6f3656320fe
+Step 2/2 : RUN apt-get update && apt-get install -y jq docker.io docker-compose
+ ---> Using cache
+ ---> d709560106eb
+Successfully built d709560106eb
+Successfully tagged 79620d5e969a475577f2727273f89d1a850cfb5c:latest
+[8mha:////4EiynxoHbZQe/XStbQToygBc0Hh522zBd9fLgBRE/qksAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG7xuaSvgAAAA==[0m[Pipeline] }
+[8mha:////4I9dTyXWXxFmGEBkCbM28L+btFkCb/UEGO+jirs5x+QjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N/hEtxS+AAAA[0m[Pipeline] // stage
+[8mha:////4Ajy2hYKTIW6vdBFdFztKK8MftBQZbT9DUuxPM8jnMWZAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKR3Hypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3btuf1r4AAAA=[0m[Pipeline] isUnix
+[8mha:////4Fa8GOhrh6aSrYXQH/m1iZTu/IljHpLF0ZWrdL3EwrAqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhtIgqrZWGF5j4ME6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDkb0SIOl2Fnh3WjyEhOH4ep4Ej1fRMcU2aFocWpZY7NgywlhSVHCSsIGqXMcLZkEW9mrh6qcIlOdU8jfUUJp9R2eUMhsTiqkL8wBdrdRR6af568AZp+grOtch73/AH7eGwW+AAAA[0m[Pipeline] sh
++ docker inspect -f . 79620d5e969a475577f2727273f89d1a850cfb5c
+.
+[8mha:////4FSZCCHhSAioeA6L5X8XVhtAf8HgMoAShi/rK/ZoZbVHAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYUVMrFEWThCSENJG/5ckpZ04EVfjDgQqMeHBsi1Z7/mCJkU4UHSss9h7TNqzIYyuJDZR7C+BJtbRmWnCRMEyaSdJxh6XKilbWFTVsBKwtqgDJY8uw0Z06q7aoNC1pxzLthdQe3ODB1SikLOK+VvmCNvraBLhj/MXAPOQoea82I5/ns0bXGTWLMIAAAA=[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 0f2629f443496b6e2dcdffa85db11926886247a219debf1a225eebe26915f139
+$ docker run -t -d -u 0:0 -w /var/lib/jenkins/workspace/piepline --volumes-from 0f2629f443496b6e2dcdffa85db11926886247a219debf1a225eebe26915f139 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** 79620d5e969a475577f2727273f89d1a850cfb5c cat
+$ docker top 6a29360d0e6410f88a303d83c3ca94d973c29bf04f9c09c375947930d1e10472 -eo pid,comm
+[8mha:////4GcXC9jMk0kfpmn3OmVwtSGq2qZNA/SAVGkm/XXrXMKDAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4A2BGfhZF8U8sexl4Fk1LMwTIBeAFkK+mlJrsvKi5PCOAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] stage
+[8mha:////4G1Ii0+CrB0e7yBJxP/8bjcnslvp+dA9MSKvkmWQ6kN8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (Make tests)
+[8mha:////4CdgZaHM3l6vxE+FPS12ga8FDTQYeIRuqSyCkPo9xz3+AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] sh
++ rm -f artifacts/word-cloud-generator
++ export GOPATH=/var/lib/jenkins/workspace/piepline
++ go env GOPATH
++ export PATH=/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/var/lib/jenkins/workspace/piepline/bin
++ go get github.com/GeertJohan/go.rice/rice
++ go get github.com/Obovtunov/word-cloud-generator/wordyapi
++ go get github.com/gorilla/mux
++ make lint
++ make test
+PASS
+ok  	_/var/lib/jenkins/workspace/piepline	0.016s
+[8mha:////4INCvYBgnVmc9qWTnbJModoIx3zazuSZHRc4SEMKt14aAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHjyRvdvgAAAA==[0m[Pipeline] }
+[8mha:////4P6l1pQkj6FRPYyLWbSp5KLvchZsm5MUVcocjn+pjbXmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHljyOIvgAAAA==[0m[Pipeline] // stage
+[8mha:////4NITIFz/7GY2ZDwvLmsTgdzUD+xyhKVN0dy5Xydiaz/YAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU6oSEmFijLJwgNCEkjf5vk5R04kRcjTvQUokJD5ZtyXqvN1QxwImCYU5jZzG2lvV+NHNimUJ385SZoytrCSN5zYTOgpQ+r1VQ0rCqKGHDYaux9RQtmgQ77uRD1l6iqS8pzNuRQ2nVAE8o+ExOMqRvmQLs76OKhD/OXwBMfYKyaRY7LM/qA2WBpeXCAAAA[0m[Pipeline] stage
+[8mha:////4K2+RVFAS3cEgtDBQuLyOjIVof8wqC4H8PghkE9Lsi9QAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (Build)
+[8mha:////4BQve8GCuaCu5SMI1e/1BiUprh3PG5lK6VkKzNyGadNaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
++ export GOPATH=/var/lib/jenkins/workspace/piepline
++ go env GOPATH
++ export PATH=/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/var/lib/jenkins/workspace/piepline/bin
++ go get github.com/tools/godep
++ go get github.com/smartystreets/goconvey
++ go get github.com/GeertJohan/go.rice/rice
++ go get github.com/OBovtunov/word-cloud-generator/wordyapi
++ go get github.com/gorilla/mux
++ sed -i s/1.DEVELOPMENT/1.$BUILD_NUMBER/g ./rice-box.go
++ GOOS=linux GOARCH=amd64 go build -o ./artifacts/word-cloud-generator -v .
+_/var/lib/jenkins/workspace/piepline
++ gzip -c ./artifacts/word-cloud-generator
++ rm ./artifacts/word-cloud-generator
++ mv ./artifacts/word-cloud-generator.gz ./artifacts/word-cloud-generator
+[8mha:////4Oswktsjc9mj6woWULVEZwvVHcnMtXh2jnImX987g3TOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4P+cAAJMkP8ucGIKukCZGDAEnA+SoUxxoLKaYRJMI7i+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // stage
+[8mha:////4I7jBKwa4yHuVLHkCwctCgrRU6wKhshOdTJCQ2mUPZmLAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUakfExBp14QQhDSFp9H+bpLQTJ+Jq3IFAJSY8WLYl6z1fUMYARwqGO429xagsH/xkcuIzhf7qaeaOLlwRRvKat3puqdOntbaUNKwqGGwEbDUqT9GiSbATTt5l5SWa6pxC3g4CmO1GeEAhMjnJkL5lCbC/TV0k/HH+AmAZErC6ztY0n2f5BhJ6FSnCAAAA[0m[Pipeline] stage
+[8mha:////4GBbC4r3UhZSd6CmaeXwqK6b6MrWV8fHP1iPweXRvLHaAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (Upload artifacts)
+[8mha:////4JVgCDbtxZetkf/9EaEV93cNi//GtSEaENgWtqyae+e9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] nexusArtifactUploader
+Uploading artifact word-cloud-generator started....
+GroupId: 1
+ArtifactId: 1
+Classifier: 
+Type: gz
+Version: 1.2
+File: word-cloud-generator
+Repository:word-cloud-builds
+Uploading: http://nexus:8081/repository/word-cloud-builds/1/word-cloud-generator/1.2/word-cloud-generator-1.2.gz
+10 % completed (569 kB / 5.7 MB).
+20 % completed (1.1 MB / 5.7 MB).
+30 % completed (1.7 MB / 5.7 MB).
+40 % completed (2.3 MB / 5.7 MB).
+50 % completed (2.8 MB / 5.7 MB).
+60 % completed (3.4 MB / 5.7 MB).
+70 % completed (4.0 MB / 5.7 MB).
+80 % completed (4.5 MB / 5.7 MB).
+90 % completed (5.1 MB / 5.7 MB).
+100 % completed (5.7 MB / 5.7 MB).
+Uploaded: http://nexus:8081/repository/word-cloud-builds/1/word-cloud-generator/1.2/word-cloud-generator-1.2.gz (5.7 MB at 4.3 MB/s)
+Uploading artifact word-cloud-generator completed.
+[8mha:////4CohVJ2fERK6O4aTH8G1Csi1O2Gp5RhX0Ed9Gt9FQzcCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Nxbzd2K+AAAA[0m[Pipeline] }
+[8mha:////4JeIANaN2Am4JG2J+GCo632XK7fBLre8K1GKGWvx2HjHAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpLBwrGwZGk+ACSKE+Z8AkVSeyKt5B9HMWLnFzr5t3vMF6xjgSEEzq3AwGDvDvJt0WSxTGK6OMrN0YR1hJKeYUFlQr04LCkoKllQ1rDhsFHaOokGdYMutvMvGSdTNOYXyHTjUph/hARUv5iRD+sIcYHeb+kj48/wVwOx9grrdf6p9AxC1Tze+AAAA[0m[Pipeline] // stage
+[8mha:////4Jv29wfEmsGl+V7U9wCqRO32DoBEyzKbXgbSUZBrJvTaAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKgsSYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhl02Tb7T/P6g3RitJDwgAAAA==[0m[Pipeline] stage
+[8mha:////4L/J42avuYBbjrAQ2dAeR0Ppy+arhcxClCGxU622rgwiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] { (Create container,download,start aplication)
+[8mha:////4Oohfj7mhxpfReDAOW1OC1ftjzB6P4md2g0pEcvBQQZxAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] node
+Running on [8mha:////4IGmtyiYA6nZ8f5kys8B4+FEnDLWXcEu/4zLF/c9SZpGAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/piepline@2
+[8mha:////4GbIN7d15E9C1+bv1PmvFG1EtzV75RBBfnqthEJQ83b+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] {
+[8mha:////4IMDiVXY/yN6C3ZX20K/Ql0maXjO3h6hhLoELB953kVAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBirOQHu+AAAA[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Warning: JENKINS-30600: special launcher org.jenkinsci.plugins.docker.workflow.WithContainerStep$Decorator$1@3785351c; decorates hudson.Launcher$LocalLauncher@23328de8 will be ignored (a typical symptom is the Git executable not being run inside a designated container)
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/piepline@2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/OBovtunov/word-cloud-generator.git # timeout=10
+Fetching upstream changes from https://github.com/OBovtunov/word-cloud-generator.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+ > git fetch --tags --force --progress -- https://github.com/OBovtunov/word-cloud-generator.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision bdf27e8566d72c54475ea1f84d63c45da2c100b2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bdf27e8566d72c54475ea1f84d63c45da2c100b2 # timeout=10
+Commit message: "Update Jenkinsfile"
+[8mha:////4GvE0mgZPgEG/ZRxGQCX9QAaoc21Rj7uvIBFbEhR9vhPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAX2HbZrCAAAA[0m[Pipeline] withEnv
+[8mha:////4NysjEcYDaZMm0AQHFh+mTnT7Jw7M56QPVIcjvQKi3M1AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] {
+[8mha:////4DgQi7n388njv65G374txsQEnG8B1luocgoTTycHZaDtAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] isUnix
+[8mha:////4Nq8zWqYco0MJi0Kvb+osUkXA7Y74qbHtmPzO9gGzaYoAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fiSQUTb4AAAA=[0m[Pipeline] readFile
+[8mha:////4M7DAzlaz023o2NoMdR+jfg2rCFQ9DWj1IZIUoBKtRg3AAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZMbCsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DcgVD1S+AAAA[0m[Pipeline] sh
++ docker build -t 2e26b400dccc571b85c6dc20dc9e65ac7cf85312 -f stage/Dockerfile stage
+Sending build context to Docker daemon  2.048kB
+Step 1/3 : FROM alpine:latest
+ ---> d4ff818577bc
+Step 2/3 : RUN apk update && apk upgrade && apk add curl jq libc6-compat
+ ---> Using cache
+ ---> e5e5d7b15276
+Step 3/3 : RUN mkdir /opt/wordcloud
+ ---> Using cache
+ ---> 1640fdceccc7
+Successfully built 1640fdceccc7
+Successfully tagged 2e26b400dccc571b85c6dc20dc9e65ac7cf85312:latest
+[8mha:////4OSG9V30vKz9/C+yqSdBuVuWSeTNpzYVvcXxY59UUunEAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSpHDGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALNPULftp/b+DQcJl9O+AAAA[0m[Pipeline] isUnix
+[8mha:////4J58NckzDX8cbMFrvDnVahUxQlfGq25lWaLtGyf3Wv6xAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSpHEcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fRjiMyr4AAAA=[0m[Pipeline] sh
++ docker inspect -f . 2e26b400dccc571b85c6dc20dc9e65ac7cf85312
+.
+[8mha:////4P+E/Vhw69Iv0N2ob5CkAISHbb10iy503KBRsRbGlhnZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUoUyIqWuUhROEJIS00f8lSWknTsTVuAOBSkx4sGxL1nu+oIoBjhQs6wz2DqNybPCjzYlNFPqLp4l1dGaKMJI3TJhJkDbtUgUlA4uKElYc1gaVp+jQJtjwTt5l7SXa+pRC3g4cSqdv8ICCZ3KSIX3LHGB7HXUk/HH+AmAeEpRNk22/+zyrNyVS2cvCAAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container 0f2629f443496b6e2dcdffa85db11926886247a219debf1a225eebe26915f139
+$ docker exec --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** 6a29360d0e6410f88a303d83c3ca94d973c29bf04f9c09c375947930d1e10472 docker run -t -d -u 0:0 --network vagrant_work -p 88:8888 -w /var/lib/jenkins/workspace/piepline@2 --volumes-from 0f2629f443496b6e2dcdffa85db11926886247a219debf1a225eebe26915f139 -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** 2e26b400dccc571b85c6dc20dc9e65ac7cf85312 cat
+$ docker exec --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** 6a29360d0e6410f88a303d83c3ca94d973c29bf04f9c09c375947930d1e10472 docker top 7d0b703287217996ae934afcba6525290c9e9d24ae30bc4fc7975d8ae52c70cf -eo pid,comm
+[8mha:////4IWy7zymFVfI/7k4dGMoaFIfQNFpE1j6P7AJwouBx7dkAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] {
+[8mha:////4CddegQbqSCKBnM96PybIvB56GzG7Nry540aNR8rTdGxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN4OkKLa+AAAA[0m[Pipeline] sh
++ rm -f 'artifacts/*'
++ curl -X GET -u downloader:downloader http://nexus:8081/repository/word-cloud-builds/1/word-cloud-generator/1.2/word-cloud-generator-1.2.gz -o /opt/wordcloud/word-cloud-generator.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 79 5543k   79 4416k    0     0  13.6M      0 --:--:-- --:--:-- --:--:-- 13.6M100 5543k  100 5543k    0     0  14.3M      0 --:--:-- --:--:-- --:--:-- 14.3M
++ gunzip -f /opt/wordcloud/word-cloud-generator.gz
++ chmod +x /opt/wordcloud/word-cloud-generator
++ sleep 1000
++ /opt/wordcloud/word-cloud-generator
+Sending interrupt signal to process
+Aborted by [8mha:////4J2wXgSLLHeiWuZAZV2N0nX++oPD2G56vUX3wW61V2AaAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4GXOiz3qJvXhGkTHvwVQgwCDyClMHRifUc/j0PxkiGs1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN5YEWne+AAAA[0m[Pipeline] }
+$ docker exec --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** 6a29360d0e6410f88a303d83c3ca94d973c29bf04f9c09c375947930d1e10472 docker stop --time=1 7d0b703287217996ae934afcba6525290c9e9d24ae30bc4fc7975d8ae52c70cf
+$ docker exec --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** --env ******** 6a29360d0e6410f88a303d83c3ca94d973c29bf04f9c09c375947930d1e10472 docker rm -f 7d0b703287217996ae934afcba6525290c9e9d24ae30bc4fc7975d8ae52c70cf
+[8mha:////4HgHAgfA/fblIcFADj3VNfOz61MErr5quyWLg4PeSqkpAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BrgEWB2+AAAA[0m[Pipeline] // withDockerContainer
+[8mha:////4PG0SB6ISPU78GUa1A5Eq5QIFrv842ze6OV499vdzYrYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpkgpR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrJpctX1B0Uicsi+AAAA[0m[Pipeline] }
+[8mha:////4IQXI71nIsXfcLD3bBa0Cmm4S9OPWm3+FCLMY9HieKrHAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGJT8GlQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w9IxYLQvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4G0F1r0nDjaHDSIjAUJ/NJV9NPNRuJaNnu/RBBHRSt9QAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234AwXfQ9b4AAAA=[0m[Pipeline] }
+[8mha:////4IKGnj2lRrpkCcr3Qy0tY5OhEse/A4wuDjfTmeUX+wVXAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234AgvWBc74AAAA=[0m[Pipeline] // node
+[8mha:////4FpNpyw0nyb/8o+9XeWM7syCDEkOS736uOOjpqjsOgrgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIIoIUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w9ECECOvgAAAA==[0m[Pipeline] }
+[8mha:////4K5+UL7mFMfAMLj3UpIOIjLvsBbWqBWiW9y6E+mwh5E0AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChISQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDh3Og774AAAA=[0m[Pipeline] // stage
+[8mha:////4M7qOovj1SHjHzCthp22QknL9sEzUSukHq10mFwSoL64AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUdGBBTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKBsmmz73edZvQG+9OU2wgAAAA==[0m[Pipeline] stage
+[8mha:////4I1O8xUPRJWt3eiIZgMXc+SChG5VwOwP/MyGwOsonPJbAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] { (Running  tests)
+Stage "Running  tests" skipped due to earlier failure(s)
+[8mha:////4MDHp/Nw6cWs1MqdP8/+sA1+LzRNaMikYavApPsAArt6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgFyHJb0vgAAAA==[0m[Pipeline] }
+[8mha:////4OgWeYSlj2pwxfc9DwC24u7wcdtIy1yMstSCNr/oVjXFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgFwfZpwvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Bv8/adz6fHgWIs0JKQE5zTYmeJsNfG1zJWS9dw9L641AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRYIGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w9rOqNGvgAAAA==[0m[Pipeline] }
+$ docker stop --time=1 6a29360d0e6410f88a303d83c3ca94d973c29bf04f9c09c375947930d1e10472
+$ docker rm -f 6a29360d0e6410f88a303d83c3ca94d973c29bf04f9c09c375947930d1e10472
+[8mha:////4NKyYe5Ifdv25eMb45X6v8YeX/3FqxtIc1oOQafzumnGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKNIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrOtdh/wF/GT5ZvgAAAA==[0m[Pipeline] // withDockerContainer
+[8mha:////4Ncx4Rc1mfnFdP/CoiWAl8Xbb7fjv0HlFed9kO9yHL7QAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiNFAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QEZmU+5vgAAAA==[0m[Pipeline] }
+[8mha:////4MWPf73eQwJmXunw4izLxOEdnuokVBLoGexaCgCIZ2d/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDUJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w9aGx4/vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4K/p9qTjHgGJ18Dd6xJORklyet1X8Q/zIT7iM5Zd+xMiAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AEx5UMK9AAAA[0m[Pipeline] }
+[8mha:////4LdPmznOwdnehmxfG5lik2MzxdVHiC7owwL2OzNRbjNLAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9ADtdeJq9AAAA[0m[Pipeline] // node
+[8mha:////4PJvZIfRsh+A9NRiwcqvUMvUl1VQygaTX1deuoJwgrWhAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPHUQf0L0AAAA=[0m[Pipeline] End of Pipeline
+java.io.IOException: failed to run ps
+	at org.jenkinsci.plugins.docker.workflow.WithContainerStep$Decorator$1.kill(WithContainerStep.java:341)
+	at org.jenkinsci.plugins.durabletask.FileMonitoringTask$FileMonitoringController.stop(FileMonitoringTask.java:445)
+	at org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.stop(DurableTaskStep.java:513)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.stop(CpsThread.java:319)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$6.onSuccess(CpsFlowExecution.java:1161)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$6.onSuccess(CpsFlowExecution.java:1150)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution$4$1.run(CpsFlowExecution.java:917)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.run(CpsVmExecutorService.java:38)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Finished: ABORTED

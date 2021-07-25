@@ -1,0 +1,18 @@
+commit c2e4e6d14aa577fed648d036fa01bf5091880393
+tree 7b5baab133837e855ba5965e3c197cf1ff384f3c
+parent 406a57fd63ba5e682dbb738081e95493b6c511d2
+author OBovtunov <83859228+OBovtunov@users.noreply.github.com> 2021-07-25 10:13:18 +0300
+committer GitHub <noreply@github.com> 2021-07-25 10:13:18 +0300
+
+    Update Jenkinsfile
+
+:100644 100644 f64fdf6870273f8982435dd8a7abbc6c13995cfd 673bf0243fa4fcf18a9a992aa73c51f229ba0d30 M	Jenkinsfile
+commit 406a57fd63ba5e682dbb738081e95493b6c511d2
+tree f7a47b84cd20d5079d04250dbc5dae7d937fd119
+parent 16a41669131ae0209096657f0a11cff016a05130
+author OBovtunov <83859228+OBovtunov@users.noreply.github.com> 2021-07-25 10:12:25 +0300
+committer GitHub <noreply@github.com> 2021-07-25 10:12:25 +0300
+
+    Update Jenkinsfile
+
+:100644 100644 d017fba62d86c96ac854aaeb12c9cbf56abea92c f64fdf6870273f8982435dd8a7abbc6c13995cfd M	Jenkinsfile

@@ -1,0 +1,34 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@3.8">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.93">
+    <parentIds>
+      <string>49</string>
+    </parentIds>
+    <id>50</id>
+    <descriptorId>org.jenkinsci.plugins.docker.workflow.WithContainerStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.93">
+      <arguments>
+        <entry>
+          <string>args</string>
+          <string>--network vagrant_work -p 88:8888</string>
+        </entry>
+        <entry>
+          <string>image</string>
+          <string>2e26b400dccc571b85c6dc20dc9e65ac7cf85312</string>
+        </entry>
+        <entry>
+          <string>toolName</string>
+          <null/>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@2.46">
+      <startTime>1627196616840</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>
